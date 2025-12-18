@@ -1,0 +1,16 @@
+# Hardhat
+node_modules/
+cache/
+artifacts/
+typechain-types/
+
+# Environment
+.env
+.env.local
+
+# Deployment records
+deployments/
+scripts/deploy-*.js
+
+# Logs
+*.log
