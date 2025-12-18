@@ -1,6 +1,6 @@
 # 🔗 Tax Blockchain System
 
-A full-stack blockchain application for transparent share ownership and Ecuadorian tax compliance.
+A full-stack blockchain application for transparent share ownership and Ecuadorian tax compliance. Pursuant to the recent reforms in the Corporation's Law (2021)
 
 ## 🎯 Features
 
@@ -15,7 +15,7 @@ A full-stack blockchain application for transparent share ownership and Ecuadori
 **Backend:**
 - Django REST Framework
 - PostgreSQL
-- Python 3.x
+- Python 3.9=<
 
 **Frontend:**
 - React 18
@@ -34,8 +34,7 @@ tax-blockchain-system/
 ├── backend/           # Django REST API
 ├── frontend/          # React application
 ├── contracts/         # Solidity smart contracts
-└── docs/              # Documentation & screenshots
-```
+
 
 ## 🚀 Quick Start
 
@@ -48,8 +47,8 @@ tax-blockchain-system/
 ### Backend Setup
 ```bash
 cd backend
-python -m venv venv
-source venv/bin/activate  # On Windows: venv\Scripts\activate
+python -m venv .venv
+source .venv/bin/activate  # On Windows: venv\Scripts\activate
 pip install -r requirements.txt
 python manage.py migrate
 python manage.py createsuperuser
@@ -75,9 +74,6 @@ npx hardhat test
 
 See individual README files in each folder for specific environment variables needed.
 
-## 🎓 Demo
-
-[Add screenshots/GIFs here]
 
 ## 📄 License
 
@@ -85,10 +81,10 @@ MIT
 
 ## 👤 Author
 
-[Your Name]
-- GitHub: [@yourusername]
-- LinkedIn: [Your LinkedIn]
+Cesar Molina Delgado
+- GitHub: @tse155
+
 
 ## 🙏 Acknowledgments
 
-Built for [Conference Name] presentation on blockchain-based tax compliance.
+Built for the IEDT/IFA Ecuador 2025 conference. For a presentation on new technologies and taxation
